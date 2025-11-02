@@ -36,7 +36,7 @@ time.sleep(1)
 
 # ir a los ajustes del motor
 escribir('chrome://settings/searchEngines')
-pyautogui.press('enter')
+pulsar_enter(1)
 time.sleep(0.25)
 
 # tabear
@@ -57,6 +57,7 @@ pulsar_tab(3)
 
 # ir a configuración general
 escribir('chrome://settings')
+pulsar_enter(1)
 time.sleep(0.25)
 
 # pulsar tab 3 veces
